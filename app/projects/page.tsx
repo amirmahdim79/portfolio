@@ -4,7 +4,7 @@ import { default as cs} from "classnames"
 export default function Home() {
   return (
     <main className="">
-      HOME
+      PROJECTS
     </main>
   );
 }

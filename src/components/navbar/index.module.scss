@@ -1,0 +1,23 @@
+@import '#/styles/colors.scss';
+
+.navbar {
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 22px 0 36px 0;
+    border-top: solid 0.5px rgb(255, 255, 255, 20%);
+    gap: 30px;
+
+    .active {
+        color: $primary;
+        border-bottom: solid 1px $primary;
+    }
+
+    label {
+        position: absolute;
+        left: 25px;
+        bottom: 32px;
+    }
+}
